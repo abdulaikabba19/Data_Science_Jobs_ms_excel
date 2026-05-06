@@ -73,5 +73,6 @@ IF((jobs[job_title_short]=A3)*
 - **The counts of jobs** clearly illustrates that most companies look out for full-time employment, as this help them to create a stable work force.
 
   ![job_type](https://github.com/abdulaikabba19/Data_Science_Jobs_ms_excel/blob/main/images_data_jobs/job%20type%20gif.gif?raw=true)
+  
 *This bar chart is used to show the job counts and job schedule type variations*
 
