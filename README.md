@@ -91,5 +91,6 @@ IF((jobs[job_title_short]=title)*
 
 ## Conclusion
 As someone who happens to be a data-driven minded person, this project has helped me to build key skills that are required of me when using MS Excel. Also, as the trends clearly show, it will help me to shape myself to go in for courses that do have high-earning possibilities, and it prepares me to know what are the key skills that are required for these high paying jobs. 
-Attached here is the link to the complete dashboard for this project: [dashboard](
+
+
 
