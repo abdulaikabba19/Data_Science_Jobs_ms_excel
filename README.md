@@ -18,7 +18,7 @@ During the process of completing this project, I was able to intensely learn, an
 
 **✅ Data Validation**
 
-## Main Insights
+## 📑 Main Insights
 
 **⭐1. Data-Science Jobs and salaries Trend**
 **Key Insights**
@@ -72,5 +72,6 @@ IF((jobs[job_title_short]=A3)*
 - **Internships sit at the entry point of the salary spectrum**, establishing a clear progression path from early‑career roles through to full‑time positions.
 - **The counts of jobs** clearly illustrates that most companies look out for full-time employment, as this help them to create a stable work force.
 
-  ![job_type]()
+  ![job_type](https://github.com/abdulaikabba19/Data_Science_Jobs_ms_excel/blob/main/images_data_jobs/job%20type%20gif.gif?raw=true)
+*This bar chart is used to show the job counts and job schedule type variations*
 
