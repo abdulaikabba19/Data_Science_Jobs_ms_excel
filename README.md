@@ -21,13 +21,44 @@ During the process of completing this project, I was able to intensely learn, an
 ## Main Insights
 
 **⭐1. Data-Science Jobs and salaries Trend**
-
+**Key Insights**
 - **Senior technical roles dominate compensation**, with Senior Data Scientist, Machine Learning Engineer, and Senior Data Engineer consistently appearing at the top of the salary range, all clustering around the $150K–$155K mark.
 
 - **Data-focused** roles show a clear progression path, where entry-level positions like **Data Analyst and Business Analyst** sit around $90K, while advanced roles such as **Data Scientist and Data Engineer** rise into the $110K–$130K range, highlighting strong salary growth with specialization.
 
 - **Engineering and cloud roles** remain highly competitive, with Software Engineer and Cloud Engineer salaries ranging from $115K–$150K, reflecting the increasing demand for hybrid data–engineering skill sets across the industry.
 
-![job_title_salary]()
-*This bar chart was created using the key insights and calculations. Once the calculation was completed, the result was sorted to get the chart in an organized and clearly explained manner. 
+The formula used to get the results of the aforementioned is:
+```
+=MEDIAN(
+IF((jobs[job_title_short]=A3)*
+(jobs[salary_year_avg]<>0)*
+(jobs[job_country]=country)*
+(ISNUMBER(SEARCH(type,jobs[job_schedule_type])))
+,jobs[salary_year_avg]))
+```
+![job_title_salary](https://github.com/abdulaikabba19/Data_Science_Jobs_ms_excel/blob/main/images_data_jobs/job%20title%20gif.gif?raw=true)
+*This bar chart was created using the key insights and calculations. Once the calculation was completed, the result was sorted to get the chart in an organized and clearly explained manner*. 
+
+
+**2. ⭐Median Salaries By country**
+
+**Key Insights**
+- **The United States stands out as a high‑salary benchmark**, consistently positioned among the top‑earning countries in the dataset, reinforcing its role as a global leader in data‑driven and technical job compensation.
+
+- **A strong mid‑tier salary cluster emerges across South Korea, Argentina, Colombia, and Thailand**, each reporting median salaries around $111K–$113K, showing competitive global markets outside the U.S.
+
+- **Europe displays significant salary variation, with countries like Austria, Czech Republic, and Poland** offering salaries above $105K, while others such as Belgium and Greece fall into the $78K–$86K range. Meanwhile, Belarus appears as a major outlier at $400K, suggesting exceptional market conditions.
+
+  The formula used to explore this analysis is given below:
+  ```
+  =MEDIAN(
+  IF((jobs[job_country]=A2)*
+  (jobs[salary_year_avg]<>0)*
+  (jobs[job_title_short]=title)*
+  (ISNUMBER(SEARCH(type,jobs[job_schedule_type])))
+  ,jobs[salary_year_avg]))
+  ```
+
+
 
