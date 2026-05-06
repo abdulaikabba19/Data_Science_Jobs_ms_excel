@@ -72,7 +72,24 @@ IF((jobs[job_title_short]=A3)*
 - **Internships sit at the entry point of the salary spectrum**, establishing a clear progression path from early‑career roles through to full‑time positions.
 - **The counts of jobs** clearly illustrates that most companies look out for full-time employment, as this help them to create a stable work force.
 
+  The following formula was used to calculate the **job counts** and **job schedule type** respectively:
+
+```
+=FILTER(I2#,NOT(ISNUMBER(SEARCH("and",I2#)))*(I2#<>0))
+```
+```
+=MEDIAN(
+IF((jobs[job_title_short]=title)*
+(jobs[salary_year_avg]<>0)*
+(jobs[job_country]=country)*
+(ISNUMBER(SEARCH(A2,jobs[job_schedule_type]))),jobs[salary_year_avg]))
+```
+
   ![job_type](https://github.com/abdulaikabba19/Data_Science_Jobs_ms_excel/blob/main/images_data_jobs/job%20type%20gif.gif?raw=true)
   
 *This bar chart is used to show the job counts and job schedule type variations*
+
+## Conclusion
+As someone who happens to be a data-driven minded person, this project has helped me to build key skills that are required of me when using MS Excel. Also, as the trends clearly show, it will help me to shape myself to go in for courses that do have high-earning possibilities, and it prepares me to know what are the key skills that are required for these high paying jobs. 
+Attached here is the link to the complete dashboard for this project: [dashboard](
 
