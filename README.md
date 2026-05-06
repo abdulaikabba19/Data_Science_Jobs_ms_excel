@@ -13,5 +13,8 @@ The completed version of this project and how it works is illustrated below:
 During the process of completing this project, I was able to intensely learn, and not limited to:
 
 **📉 Charts creation**
+
 **🧮 Formulas and Functions(simple and advanced)**
+
 **✅ Data Validation**
+
