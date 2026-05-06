@@ -41,7 +41,7 @@ IF((jobs[job_title_short]=A3)*
 *This bar chart was created using the key insights and calculations. Once the calculation was completed, the result was sorted to get the chart in an organized and clearly explained manner*. 
 
 
-**2. ⭐Median Salaries By country**
+**⭐2. Median Salaries By country**
 
 **Key Insights**
 - **The United States stands out as a high‑salary benchmark**, consistently positioned among the top‑earning countries in the dataset, reinforcing its role as a global leader in data‑driven and technical job compensation.
@@ -59,6 +59,18 @@ IF((jobs[job_title_short]=A3)*
   (ISNUMBER(SEARCH(type,jobs[job_schedule_type])))
   ,jobs[salary_year_avg]))
   ```
+![job_country](https://github.com/abdulaikabba19/Data_Science_Jobs_ms_excel/blob/main/images_data_jobs/job_country.png?raw=true)
+*This figure shows the result of the data, and the map chart, after the calculation is done.The region marked with blue shows how median salary varied for different countries* 
 
+**⭐3. Job Schedule Type Count**
 
+**Key Insights**
+- **Full‑time roles offer the highest median salary**,  which positions them at the top of the job‑type hierarchy and reflects the premium placed on long‑term employment commitments.
+
+- **Contractor, part‑time, and temp roles** form a competitive mid‑tier, showing that flexible or non‑permanent work arrangements can still command strong compensation.
+
+- **Internships sit at the entry point of the salary spectrum**, establishing a clear progression path from early‑career roles through to full‑time positions.
+- **The counts of jobs** clearly illustrates that most companies look out for full-time employment, as this help them to create a stable work force.
+
+  ![job_type]()
 
